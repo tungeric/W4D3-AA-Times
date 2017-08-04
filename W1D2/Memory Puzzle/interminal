@@ -1,0 +1,15 @@
+load 'card.rb'
+load 'board.rb'
+load 'game.rb'
+load 'player.rb'
+a = HumanPlayer.new("boo")
+c = ComputerPlayer.new("hoo")
+b = Game.new(c)
+b.play
+
+a = Board.new
+a.populate
+a.render
+
+a.grid[2][3].paired = true
+a[[0,0]].face_up = true

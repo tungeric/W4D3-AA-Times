@@ -1,0 +1,5 @@
+load 'ghost_multiplayer.rb'
+a = Player.new("bob")
+b = Player.new("cat")
+d = [a,b]
+c = Game.new(d)
