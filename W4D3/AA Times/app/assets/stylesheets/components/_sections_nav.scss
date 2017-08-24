@@ -1,0 +1,19 @@
+.section-nav ul {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid $light-gray;
+}
+
+.section-nav ul li {
+  padding-left: 10px;
+}
+
+.section-nav ul li a:hover {
+  background-color: $light-gray;
+  text-decoration: underline;
+}
+
+.section-nav ul li:last-child {
+  text-transform: uppercase;
+}
